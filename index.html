@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Dividida</title>
+  <style>
+    body {
+      background-image: url('img/sistemas-politicos-1-1000x667.jpg');
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin-top: 20px;
+      color: #ffffff;
+    }
+
+    #contenedor {
+      display: flex;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    #izquierdo,
+    #central,
+    #derecho {
+      flex:  0 0 400px;
+      background-color: #a070287a;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    #central {
+      background-color: #c0642f;
+    }
+    #image-container img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    #enlaces {
+      margin-top: 20px;
+    }
+
+    #enlaces a {
+      text-decoration: none;
+      color: #007BFF;
+      padding: 5px;
+      transition: color 0.3s;
+    }
+    #nav-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      background-color: #007BFF;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    #nav-container a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      padding: 10px;
+      transition: background-color 0.3s;
+    }
+    #nav-container a:hover {
+      background-color: #0056b3;
+    }
+    #video-container video {
+      max-width: 100%;
+      border-radius: 3px;
+    }
+    #derecho a {
+      display: block;
+    }
+    #derecho a img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .fomrmu{
+    background-color: #89c5b8;
+    color: white;
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 20px;}
+  </style>
+</head>
+<body>
+  <h1>Sistemas politicos, representacion, cambio politico y social</h1>
+  <div id="contenedor">
+    <div id="izquierdo">
+      <h2>Ilustraciones de un sistema político</h2>
+      <div id="image-container">
+        <img src="img/Sis1.jpeg" alt="Imagen de los sistemas políticos">
+        <img src="img/Sis2.jpeg" alt="Imagen de los sistemas políticos">
+        <img src="img/Sis3.jpeg" alt="Imagen de los sistemas políticos">
+        <img src="img/Sis4.jpeg" alt="Imagen de los sistemas políticos">
+      </div>
+    </div>
+
+    <div id="central">
+      <h2>¡Bienvenido!</h2>
+      <p>Bienvenido a nuestro sitio sobre sistemas políticos. Aquí encontrarás información detallada sobre distintos modelos políticos que han influido en la historia y en la actualidad.</p>
+      <p>Explora cada sección para aprender más acerca de la monarquía, dictadura, república, la importancia de la división de poderes y cómo la participación ciudadana contribuye al desarrollo político.</p>
+      <p>¡Esperamos que encuentres la información interesante y educativa!</p>
+      <h2>Que son los sistemas políticos?</h2>
+      <p>Los sistemas políticos son estructuras y procesos por los cuales se organizan y gestionan las comunidades humanas...</p>
+      <p>Estos sistemas políticos pueden coexistir en diversas formas, y muchos países adoptan una combinación de elementos de varios de ellos...</p>
+      <img src="img/Sis5.jpeg" alt="Imagen de los sistemas políticos">
+    </div>
+
+    <div id="derecho">
+      <h2>Conoce mas en...</h2>
+      <a href="https://nuevaescuelamexicana.sep.gob.mx/detalle-ficha/3980/" target="_blank">
+        <img src="img/mex.png" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+      </a>
+      <a href="https://ibero.mx/iberoforum/6/pdf/juann.pdf" target="_blank">
+        <img src="img/ibero.png" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+      </a>
+      <a href="https://es.wikipedia.org/wiki/Pol%C3%ADtica_de_M%C3%A9xico" target="_blank">
+        <img src="img/wiki.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+      </a>
+    </div>
+  </div>
+  <video width="700" height="400" controls>
+    <source src="videos/Democracia.mp4">
+  </video>
+
+
+  <div id="contenedor">
+    <div id="izquierdo">
+      <h2>Ilustraciones de la Monarquía</h2>
+      <div id="image-container">
+        <img src="img/monarquia.jpg" alt="Imagen de la monarquia">
+        <img src="img/mon2.jpeg" alt="Imagen de los sistemas políticos">
+        <img src="img/mon3.jpeg" alt="Imagen de los sistemas políticos">
+        <img src="img/mon4.jpeg" alt="Imagen de los sistemas políticos">
+      </div>
+    </div>
+    <div id="central">
+        <h2>Monarquía</h2>
+        <p>
+            La monarquía es una forma de gobierno en la cual la jefatura del Estado recae sobre el rey, variando sus competencias y poderes según el tipo de monarquía que se instale.
+            En la monarquía, el rey es el jefe del Estado, y como tal tiene una serie de poderes. Estos varían desde ostentar todo el poder estatal como ocurre en las monarquías absolutas, a no tener ningún poder como en las monarquías parlamentarias, donde el rey es el mero símbolo de la unidad del paísblank.        
+        </p>
+        h3>Hay tres tipos de monarquía:</h3>
+	<nav>
+        <ul>
+            <li><h4>Monarquía absoluta:</h4>Es la monarquía más antigua, y es característica de la Edad Media. En ella, no hay separación de poderes, el rey ostenta el poder ejecutivo, legislativo y judicial.</li>
+            <li>
+				<h4>Monarquía constitucional:</h4> Es el tipo de monarquía que surge de la Constitución francesa de 1791 y que posteriormente instaurarían muchos países europeos durante el siglo XIX. En este régimen, el rey ostenta el poder ejecutivo pero no el legislativo. 
+				</li>
+            <li><h4>Monarquía parlamentaria. :</h4>  En ellas, se dice que el rey reina pero no gobierna. Esto ocurre porque ninguno de los poderes del Estado recae en el monarca. Es decir, el poder judicial, legislativo y ejecutivo son totalmente independientes de la corona. </li>
+      </ul>
+    </nav>
+    <p>Las monarquías surgieron con las primeras civilizaciones, alrededor del año 3.000 a. C., en la Mesopotamia, Egipto y el Valle del Indo. Consistían en gobiernos religiosos, en los que el monarca era, al mismo tiempo, dios, sacerdote y caudillo militar
+        CARACTERISTICAS DE LA MONARQUIA<br>
+        01 MONARCA<br>
+        02 HERENCIA<br>
+        03 CEREMONIAL DE PAPEL<br>
+        04 PARLAMENTO<br>
+        05 PAPEL DE LA POLITICA EXTERIOR<br>
+        06 CIMBOLO NACIONAL<br>
+        07 ESTABILIDAD Y CONTINUIDAD<br>
+        08 TURISMO<br>
+        </p>
+      </div>  
+      <div id="derecho">
+        <h2>Conoce mas en...</h2>
+        <a href="https://www.lasallebajio.edu.mx/delasalle/contenidos/revistas/derecho/numero_6/alumnos_alumno.html#:~:text=La%20monarqu%C3%ADa%20es%20la%20forma,ser%20absoluta%2C%20constitucional%20y%20parlamentaria." target="_blank">
+          <img src="img/exlege.jpg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+        </a>
+        <a href="https://concepto.de/monarquia/" target="_blank">
+          <img src="img/c.png" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+        </a>
+        <a href="https://es.wikipedia.org/wiki/Monarqu%C3%ADa" target="_blank">
+          <img src="img/wiki.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+        </a>
+      </div>
+    </div>
+    <video width="700" height="400" controls>
+      <source src="videos/Monarquía.mp4">
+    </video>
+
+
+    <div id="contenedor">
+        <div id="izquierdo">
+          <h2>Ilustraciones de la dictadura</h2>
+          <div id="image-container">
+            <img src="img/dictadura.jpg" alt="Imagen de la dictadura">
+            <img src="img/dic3.jpg" alt="Imagen de los sistemas políticos">
+            <img src="img/dic4.jpg" alt="Imagen de los sistemas políticos">
+          </div>
+        </div>
+    <div id="central">
+      <h2>Dictadura</h2>
+      <p>
+        La dictadura es un sistema político donde el poder se reduce a las manos de unas pocas personas y que no sigue los principios democráticos. No obstante, puede haberlas de muchos tipos,<br>
+        independientemente de la ideología, este se refiere a un sistema de gobierno donde el poder se concentra en una persona o un grupo de personas que no están sometidas a las leyes, el control <br>
+        y separación de poderes propias de una democracia. Además, se caracteriza por la falta de pluralismo político y por vulnerar los derechos y libertades civiles de la población
+        <br> mediante su control autoritario.
+	</p>
+    <ol> 
+        <h3><li>Dictadura</li></h3>
+        <ul>
+        <li>Concentración de poder </li>
+        <li>Autoritarismo</li>
+        <li>Falta de pluralismo político</li>
+        <li>Represión política</li>
+        <li>Duración indefinida</li>
+        <li>Control de las fuerzas armadas </li>
+        <li>Falta de división de poderes</li>
+        <li>Propaganda y control de la información</li>
+        <li>Violencia política</li>
+        <li>Economía controlada</li>
+    </ul>
+    </ol>
+    <p>Las dictaduras pueden instaurarse de maneras muy distintas, algunas incluso llegando al poder democráticamente, otras a través de revoluciones, guerras civiles o golpes de Estado.<br>
+        Pero incluso si su origen es legítimo y democrático, las prácticas autoritarias y el desbalance de poderes que implica toda dictadura impide su remoción del poder, y a veces incluso <br>
+        su sola denuncia.  No debemos confundir las dictaduras con las monarquías, ya que en estas últimas el poder del rey es limitado por las demás fuerzas políticas (en el caso de las monarquías<br>
+        parlamentarias, por ejemplo) o suscrito a una constitución (en el caso de las monarquías constitucionales).<br>
+        La dictadura es un concepto político moderno.</p>
+    </div>
+    <div id="derecho">
+      <h2>Conoce mas en...</h2>
+      <a href="https://humanidades.com/dictadura/" target="_blank">
+        <img width="100" height="100" src="img/e.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+      </a>
+      <a href="https://concepto.de/dictadura/" target="_blank">
+        <img src="img/c.png" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+      </a>
+      <a href="https://es.wikipedia.org/wiki/Dictadura" target="_blank">
+        <img src="img/wiki.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+      </a>
+    </div>
+  </div>
+  <video width="700" height="400" controls>
+    <source src="videos/Dictadura.mp4">
+  </video>
+
+
+  <div id="contenedor">
+    <div id="izquierdo">
+      <h2>Ilustraciones de Republica</h2>
+      <div id="image-container">
+        <img src="img/republica.jpg" alt="Imagen de la república">
+        <img src="img/r2.jpg" alt="Imagen de los sistemas políticos">
+        <img src="img/r3.JPG" alt="Imagen de los sistemas políticos">
+        <img src="img/r4.jpg" alt="Imagen de los sistemas políticos">
+      </div>
+    </div>
+<div id="central">
+  <h2>Republica</h2>
+  <p>
+    Es una Organización del Estado cuya máxima autoridad es elegida por los ciudadanos o por el Parlamento para un período determinado. Estado cuya forma de gobierno es una república.         
+  </p>
+  <P>República difiere del uso antiguo, y generalmente se refiere al imperio de la ley y la separación de los poderes públicos. En ese sentido, la existencia de la república es contraria al acaparamiento del poder político por parte de una sola figura, como ocurre en las autocracias, o a la designación vitalicia de cargos públicos, como ocurre en las monarquías. Características de una república
+    <lu>
+     <h4> En general, una república tiene las siguientes características fundamentales:</h4>
+     <li>Participación política activa de los ciudadanos</li>
+     <li>Representación ciudadana igualitaria en las instituciones</li>
+     <li>Libertad e igualdad ante la ley para la ciudadanía</li>
+    </lu>
+     </P>
+</div>
+<div id="derecho">
+  <h2>Conoce mas en...</h2>
+  <a href="https://humanidades.com/republica/" target="_blank">
+    <img width="100" height="100" src="img/e.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+  <a href="https://concepto.de/republica/" target="_blank">
+    <img src="img/c.png" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+  <a href="https://es.wikipedia.org/wiki/Rep%C3%BAblica" target="_blank">
+    <img src="img/wiki.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+</div>
+</div>
+<video width="700" height="400" controls>
+<source src="videos/Republica y Democracia.mp4">
+</video>
+
+
+<div id="contenedor">
+    <div id="izquierdo">
+      <h2>Ilustraciones de la Divicion de Poderes</h2>
+      <div id="image-container">
+        <img src="img/div poderes.jpg" alt="Imagen de la Divicion de Poderes">
+        <img src="img/div2.jpg" alt="Imagen de los sistemas políticos">
+        <img src="img/div3.jpg" alt="Imagen de los sistemas políticos">
+        <img src="img/div4.jpg" alt="Imagen de los sistemas políticos">
+      </div>
+    </div>
+<div id="central">
+  <h2>Divicion de Poderes</h2>
+  <p>
+    Separación de poderes o división de poderes es un principio político en algunas formas de gobierno, en el cual los poderes legislativo, ejecutivo y judicial del Estado son ejercidos por órganos de gobierno distintos, autónomos e independientes entre sí.       
+</p>
+<nav>
+    <ul>
+        <li><h4>Legislativo:</h4>Se encarga de expedir leyes que regulan la estructura y funcionamiento internos de la República Mexicana.</li>
+            <h4>Ejecutivo:</h4> Es quien dirige, coordina, planifica y ejecuta las acciones de gobierno. Se elige mediante voto universal, secreto y directo. </li> 
+            </li>
+        <li>
+            <h4>Judicial :</h4> El Poder judicial es la de resolver con fuerza de verdad legal las cuestiones de derecho sometidas a sus estrados. De ese modo, los jueces que integran este poder completan el sistema representativo al aplicar las normas al caso individual.</li>  
+  </ul>
+</nav>
+</div>
+
+<div id="derecho">
+  <h2>Conoce mas en...</h2>
+  <a href="https://embamex.sre.gob.mx/nuevazelandia/index.php/sobremexico/gobiernoyestructura" target="_blank">
+    <img src="img/mex.png" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+  <a href="https://www.sdelsol.com/glosario/division-de-poderes/#:~:text=En%20los%20Estados%20modernos%2C%20la,diferentes%20%C3%B3rganos%20dependientes%20entre%20s%C3%AD." target="_blank">
+    <img src="img/d.png" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+  <a href="https://es.wikipedia.org/wiki/Separaci%C3%B3n_de_poderes" target="_blank">
+    <img src="img/wiki.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+</div>
+</div>
+<video width="700" height="400" controls>
+<source src="videos/División de poderes.mp4">
+</video>
+
+
+<div id="contenedor">
+    <div id="izquierdo">
+      <h2>Ilustraciones de la Participacion Ciudadana</h2>
+      <div id="image-container">
+        <img src="img/parciu.jpg" alt="Imagen de la participación ciudadana">
+        <img src="img/parc.png" alt="Imagen de los sistemas políticos">
+        <img src="img/parc3.jpg" alt="Imagen de los sistemas políticos">
+        <img src="img/parc4.jpg" alt="Imagen de los sistemas políticos">
+      </div>
+    </div>
+<div id="central">
+  <h2>Participación Ciudadana</h2>
+  <p>
+    La participación ciudadana es la intervención de la ciudadanía en la toma de decisiones respecto al manejo de los recursos y las acciones que tienen un impacto en el desarrollo de sus comunidades
+Toda persona tiene el derecho individual o colectivo para intervenir en las decisiones públicas, deliberar, discutir y cooperar con las autoridades, así como para incidir en la formulación, ejecución y evaluación de las políticas y actos
+</p>
+<h3>Algunos de estos ejemplos son:</h3>
+	<nav>
+        <ul>
+            <li><mark>El enfoque de derechos:</mark> El Estado debe velar el desarrollo y la efectividad del conjunto de derechos de diversa naturaleza.</li>
+            <li>
+				<mark>La participación como derecho:</mark> La participación de las personas y organizaciones de la sociedad civil en el ciclo de las políticas públicas es un derecho que el Estado debe asegurar y promover.
+				</li>
+            <li><mark> El derecho a la información pública:</mark> Las políticas públicas deben ser conocidas por la sociedad, especialmente por sus destinatarios, tanto en el acceso a la oferta de los servicios institucionales y garantías de protección social, como en el control y transparencia de la función pública.</li>
+            <li><mark>El fortalecimiento de la sociedad civil:</mark> Las políticas públicas sectoriales deben incluir iniciativas concretas de fortalecimiento de las organizaciones de la sociedad civil, teniendo en cuenta criterios de equidad y descentralización.</li>
+        </ul>
+    </nav>
+</div>
+
+<div id="derecho">
+  <h2>Conoce mas en...</h2>
+  <a href="https://minrel.gob.cl/minrel/ministerio/gestion-publica/participacion-ciudadana#:~:text=La%20participaci%C3%B3n%20ciudadana%20constituye%20un,dise%C3%B1o%2C%20toma%20de%20decisiones%20y" target="_blank">
+    <img src="img/color.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+  <a href="https://iepcgro.mx/principal/sitio/participacion_ciudadana" target="_blank">
+    <img src="img/i.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+  <a href="https://es.wikipedia.org/wiki/Participaci%C3%B3n_ciudadana" target="_blank">
+    <img src="img/wiki.jpeg" alt="Enlace a nuevaescuelamexicana.sep.gob.mx">
+  </a>
+</div>
+</div>
+<video width="700" height="400" controls>
+<source src="videos/División de poderes.mp4">
+</video>
+
+
+<section>
+    <form action="" class="fomrmu">
+        <label >¿Tienes alguna duda?</label><br>
+        <div class="duda">
+            <label for="nombre">Necesitas otro tipo de informacion:</label>
+            <input id="nombre" name="nombre" required/>
+        </div>
+        <div class="duda">
+            <label for="nombre">Comenta de que otros temas quieres saber:</label>
+            <textarea id="nombre" name="nombre" required></textarea>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+</body>
+</html>
